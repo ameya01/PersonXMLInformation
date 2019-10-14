@@ -58,6 +58,7 @@ public class PeopleXMLData {
     public String[] getNames(){
         //construct the string[]
 
+        // Here we are going to show only the names on list
         String [] names= new String[data.length];
         for (int i=0; i<data.length; i++){
             names[i]= data[i].getName();
